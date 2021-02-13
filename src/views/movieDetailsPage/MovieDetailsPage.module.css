@@ -1,0 +1,46 @@
+.btnAndFoto {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  height: 600px;
+  margin-right: 10px;
+}
+
+.image {
+  margin: 10px 0px;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.fotoAndInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.title,
+.overview,
+.list {
+  margin: 0px 0px 15px 0px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 10px;
+}
+.item {
+  margin: 0px 0px 10px 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: chocolate;
+}
