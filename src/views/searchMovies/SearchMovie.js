@@ -32,7 +32,7 @@ class SearchMovie extends Component {
     const { value } = this.state;
 
     if (value !== "") {
-      fetch(`${BASE_URL}search/movie/?api_key=${KEY}&query=${value}`)
+      fetch(`${BASE_URL}search/movie?api_key=${KEY}&query=${value}`)
         .then((response) => response.json())
         .then((response) =>
           this.setState((prevState) => ({
